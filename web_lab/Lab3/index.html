@@ -1,0 +1,56 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Лабораторная 3</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="block">
+    <h1>Первое задание</h1>
+    <form name="firstTask">
+      <h4>Выберите пол</h4>
+      <input class="radio" type ="radio" id="man" name="gender" value=1 checked style="margin-bottom: 30;">
+      <label for="man">Мужчина</label><br>
+      <input class="radio" type ="radio" id="woman" name="gender" value=2>
+      <label for="woman">Женщина</label>
+      <h4>Укажите возраст (в годах)</h4>
+      <input class="editor" type ="text" name="age" size=3><br>
+      <input class="btn" type ="button" value="Категория" onClick="first(firstTask)"><br>
+      <input class="editor" type ="text" name="res" size=25><br>
+      <input class="btn" type ="reset" value=Отменить>
+    </form>
+  </div>
+  <div class="block">
+    <h1>Второе задание</h1>
+    <form name="secondTask">
+      <h4>Укажите ваш пол</h4>
+      <input class="radio" type ="radio" id="man2" name="gender" value="Мужчина" checked >
+      <label for="man2">Мужчина</label><br>
+      <input class="radio" type ="radio" id="woman2" name="gender" value="Женщина">
+      <label for="woman2">Женщина</label>
+      <hr>
+      <h4>Черты характера, Вам присущие</h4>
+      <input class="checkbox" type="checkbox" name="charac" value="Мягкий" id="num1">
+      <label for="num1">Мягкость</label><br>
+      <input class="checkbox" type="checkbox" name="charac" value="Целеустремленный" id="num2">
+      <label for="num2">Целеустремленность</label><br>
+      <input class="checkbox" type="checkbox" name="charac" value="Добрый" id="num3">
+      <label for="num3">Доброта</label><br>
+      <input class="checkbox" type="checkbox" name="charac" value="Лидерский" id="num4">
+      <label for="num4">Лидер</label><br>
+      <input class="checkbox" type="checkbox" name="charac" value="Надежный" id="num5">
+      <label for="num5">Надежность</label><br>
+      <hr>
+      <textarea rows="2" cols="50" name="textWindow" OnKeyUp="ResizeTextArea(this,2);"></textarea><br>
+      <input class="btn" type ="button" value="Всё верно" onClick="second(secondTask)">
+      <input class="btn" type ="reset" value="Неправильно">
+    </form>
+  </div>
+  <div class="block">
+    <h1>Третье задание</h1>
+    <img border="0" src="images/pic1.jpg" name=mypict1 onmouseover="more1()" onmouseout="less1()" width=300px>
+    <img border="0" src="images/pic2.jpg" name=mypict2 onmouseover="more2()" onmouseout="less2()" width=300px><br>
+  </div>
+  <script src="scripts.js"></script>
+</body>
+</html>

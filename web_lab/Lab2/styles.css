@@ -1,0 +1,50 @@
+body {
+  background-color:202124;
+}
+.block {
+}
+.btn {
+  border: none;
+  color: white;
+  padding: 1rem 1.75rem;
+  font-size: 22px;
+  border-radius: 10rem;
+}
+.btn-success {
+  background-color: #4CAF50; /*Green color*/
+}
+.btn-info {
+  background-color: #2360d0; /*Blue color*/
+}
+.btn-warning {
+  background-color: #e23b3b; /*Red color*/
+}
+
+/* Common styles for the calendar */
+table {
+        color: white;
+        width: 100%;
+        border-collapse: collapse;
+    }
+    th, td {
+        padding: 10px;
+        text-align: center;
+    }
+    .solid-border th, .solid-border td {
+        border: 2px solid white;
+    }
+    .dotted-border th, .dotted-border td {
+        border: 2px dotted gold;
+    }
+    .double-border th, .double-border td {
+        border: 4px double green;
+    }
+    .groove-border th, .groove-border td {
+        border: 4px groove red;
+    }
+    .dashed-border th, .dashed-border td {
+        border: 4px dashed blue;
+    }
+    .ridge-border th, .ridge-border td {
+        border: 4px ridge violet;
+    }
