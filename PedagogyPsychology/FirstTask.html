@@ -12,31 +12,21 @@
 <tw-storydata name="P&amp;P" startnode="1" creator="Twine" creator-version="2.12.0" format="Harlowe" format-version="3.3.9" ifid="AB20715F-6AB6-4C09-A13E-1650AEA34A13" options="" tags="" zoom="1" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css"></style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="Start" tags="" position="1100,400" size="100,100">(set: $points to 0)
 Ты просыпаешься и берёшь в руки телефон. Уведомления сыплются одно за другим. Твоя задача — не попасться на уловки цифрового мира и сохранить свои данные. Впереди 3 ситуации. За каждый осознанный выбор ты получаешь «цифровой щит».
 
-(align:&quot;=&gt;&lt;=&quot;)[[Начать проверку|Situation1]]</tw-passagedata><tw-passagedata pid="2" name="Situation1" tags="" position="1200,500" size="100,100">Приходит SMS: «Ваш аккаунт в облаке заблокирован! Срочно перейдите по ссылке для разблокировки: cl0ud-sec.ru/auth». Что делаешь?
+(align:&quot;=&gt;&lt;=&quot;)[[Начать проверку|Situation1]]</tw-passagedata><tw-passagedata pid="2" name="Situation1" tags="" position="1200,400" size="100,100">Приходит SMS: «Ваш аккаунт в облаке заблокирован! Срочно перейдите по ссылке для разблокировки: cl0ud-sec.ru/auth». Что делаешь?
 
-=|=
 (align:&quot;=&gt;&lt;=&quot;)[[Перейти по ссылке|S1Wrong]]
-=|=
 (align:&quot;=&gt;&lt;=&quot;)[[Проверить отправителя и не переходить|S1Right]]
-|==|
 
 
 
 
+</tw-passagedata><tw-passagedata pid="3" name="Situation2" tags="" position="1325,525" size="100,100">В ленте вирусный пост: «Учёные доказали: Wi-Fi роутеры излучают радиацию, вызывающую мигрени. Выключайте на ночь!». Как поступишь?
 
-</tw-passagedata><tw-passagedata pid="3" name="Situation2" tags="" position="1400,700" size="100,100">В ленте вирусный пост: «Учёные доказали: Wi-Fi роутеры излучают радиацию, вызывающую мигрени. Выключайте на ночь!». Как поступишь?
-
-=|=
 (align:&quot;=&gt;&lt;=&quot;)[[Поверить и выключить|S2Wrong]]
-=|=
-(align:&quot;=&gt;&lt;=&quot;)[[Проверить источник и факты|S2Right]]
-|==|</tw-passagedata><tw-passagedata pid="4" name="Situation3" tags="" position="1600,900" size="100,100">Ты в кафе. Нужно срочно отправить файл преподавателю. Доступен открытый Wi-Fi `«Free_Cafe_WiFi»`. Что делаешь?
+(align:&quot;=&gt;&lt;=&quot;)[[Проверить источник и факты|S2Right]]</tw-passagedata><tw-passagedata pid="4" name="Situation3" tags="" position="1450,650" size="100,100">Ты в кафе. Нужно срочно отправить файл преподавателю. Доступен открытый Wi-Fi `«Free_Cafe_WiFi»`. Что делаешь?
 
-=|=
 (align:&quot;=&gt;&lt;=&quot;)[[Подключиться и отправить|S3Wrong]]
-=|=
-(align:&quot;=&gt;&lt;=&quot;)[[Использовать VPN или мобильный интернет|S3Right]]
-|==|</tw-passagedata><tw-passagedata pid="5" name="End" tags="" position="1800,1100" size="100,100">(if: $points is 3)[
+(align:&quot;=&gt;&lt;=&quot;)[[Использовать VPN или мобильный интернет|S3Right]]</tw-passagedata><tw-passagedata pid="5" name="End" tags="" position="1575,775" size="100,100">(if: $points is 3)[
 🛡️ Ты собрал все 3 щита! Твоя цифровая гигиена на высоте. Ты умеешь распознавать фишинг, проверять информацию и защищать данные в публичных сетях.
 ]
 (else-if: $points is 2)[
@@ -46,32 +36,29 @@
 ⚠️ 1 или 0. Цифровой мир требует внимания. Изучи основы кибергигиены, настрой двухфакторную аутентификацию и попробуй пройти сценарий заново.
 ]
 
-=|=
 (align:&quot;=&gt;&lt;=&quot;)[[Пройти заново|Start]]
-=|=
 (align:&quot;=&gt;&lt;=&quot;)[[Обсудить с группой|Reflection]]
-|==|
 
-</tw-passagedata><tw-passagedata pid="6" name="Reflection" tags="" position="1900,1200" size="100,100">Задание для самостоятельной или парной работы:
+</tw-passagedata><tw-passagedata pid="6" name="Reflection" tags="" position="1675,775" size="100,100">Задание для самостоятельной или парной работы:
 1. Какая ситуация показалась самой сложной? Почему?
 2. Составьте чек-лист «5 правил кибергигиены студента».
 3. Приведите пример фейка или фишинга из вашей практики.
 
-💡 Подсказка для преподавателя: используйте ответы для формативного оценивания и корректировки дальнейшего обучения.</tw-passagedata><tw-passagedata pid="7" name="S1Wrong" tags="" position="1200,700" size="100,100">Ой! Ссылка ведёт на поддельный сайт, который запрашивает логин и пароль. Твой аккаунт под угрозой. В следующий раз проверяй домен, включай двухфакторную аутентификацию и не реагируй на искусственную срочность.
+💡 Подсказка для преподавателя: используйте ответы для формативного оценивания и корректировки дальнейшего обучения.</tw-passagedata><tw-passagedata pid="7" name="S1Wrong" tags="" position="1200,525" size="100,100">Ой! Ссылка ведёт на поддельный сайт, который запрашивает логин и пароль. Твой аккаунт под угрозой. В следующий раз проверяй домен, включай двухфакторную аутентификацию и не реагируй на искусственную срочность.
 
 
-(align:&quot;=&gt;&lt;=&quot;)[[Далее|Situation2]]</tw-passagedata><tw-passagedata pid="8" name="S1Right" tags="" position="1400,500" size="100,100">(set: $points to it + 1)
+(align:&quot;=&gt;&lt;=&quot;)[[Далее|Situation2]]</tw-passagedata><tw-passagedata pid="8" name="S1Right" tags="" position="1325,400" size="100,100">(set: $points to it + 1)
 Верно! Это классический фишинг. Мошенники используют срочность и подменные домены. Никогда не кликай по подозрительным ссылкам. Заходи в сервисы через официальные приложения или вручную вводи адрес.
 
 (align:&quot;=&gt;&lt;=&quot;)[[Далее|Situation2]]
-</tw-passagedata><tw-passagedata pid="9" name="S2Wrong" tags="" position="1400,900" size="100,100">Не стоит. Научных подтверждений этому нет. Такие посты создают панику и снижают цифровую грамотность. Развивай критическое мышление: ищи первоисточник, проверяй даты, автора и репутацию площадки.
+</tw-passagedata><tw-passagedata pid="9" name="S2Wrong" tags="" position="1325,650" size="100,100">Не стоит. Научных подтверждений этому нет. Такие посты создают панику и снижают цифровую грамотность. Развивай критическое мышление: ищи первоисточник, проверяй даты, автора и репутацию площадки.
 
-(align:&quot;=&gt;&lt;=&quot;)[[Далее|Situation3]]</tw-passagedata><tw-passagedata pid="10" name="S2Right" tags="" position="1600,700" size="100,100">(set: $points to it + 1)
+(align:&quot;=&gt;&lt;=&quot;)[[Далее|Situation3]]</tw-passagedata><tw-passagedata pid="10" name="S2Right" tags="" position="1450,525" size="100,100">(set: $points to it + 1)
 Отлично! Это фейк. Роутеры работают на неионизирующем излучении, безопасном для человека. Всегда проверяй информацию через научные источники, фактчекинг-платформы и официальные заявления организаций.
 
-(align:&quot;=&gt;&lt;=&quot;)[[Далее|Situation3]]</tw-passagedata><tw-passagedata pid="11" name="S3Wrong" tags="" position="1600,1100" size="100,100">Опасно! В открытых сетях данные часто передаются в открытом виде. Твои логины и документы могут быть перехвачены. Для важных задач всегда используй защищённое соединение.
+(align:&quot;=&gt;&lt;=&quot;)[[Далее|Situation3]]</tw-passagedata><tw-passagedata pid="11" name="S3Wrong" tags="" position="1450,775" size="100,100">Опасно! В открытых сетях данные часто передаются в открытом виде. Твои логины и документы могут быть перехвачены. Для важных задач всегда используй защищённое соединение.
 
-(align:&quot;=&gt;&lt;=&quot;)[[Узнать результат|End]]</tw-passagedata><tw-passagedata pid="12" name="S3Right" tags="" position="1800,900" size="100,100">(set: $points to it + 1)
+(align:&quot;=&gt;&lt;=&quot;)[[Узнать результат|End]]</tw-passagedata><tw-passagedata pid="12" name="S3Right" tags="" position="1575,650" size="100,100">(set: $points to it + 1)
 Правильно! Открытые сети не шифруют трафик. Злоумышленники могут перехватить пароли и файлы. Для конфиденциальных операций используй VPN, мобильную точку доступа или дождись защищённой сети.
 
 (align:&quot;=&gt;&lt;=&quot;)[[Узнать результат|End]]</tw-passagedata></tw-storydata>
